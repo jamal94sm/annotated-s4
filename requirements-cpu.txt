@@ -1,8 +1,8 @@
 jax==0.2.26
-jaxlib==0.1.75
+jaxlib
 flax==0.3.6
 torch==1.10.1
-torchtext==0.11.1
+torchtext
 torchaudio==0.10.1
 torchvision==0.11.2
 jupytext==1.13.4

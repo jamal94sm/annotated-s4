@@ -10,10 +10,10 @@ from flax import linen as nn
 from flax.training import checkpoints, train_state
 from omegaconf import DictConfig, OmegaConf
 from tqdm import tqdm
-from .data import Datasets
-from .dss import DSSLayer
-from .s4 import BatchStackedModel, S4Layer, SSMLayer, sample_image_prefix
-from .s4d import S4DLayer
+from data import Datasets
+from dss import DSSLayer
+from s4 import BatchStackedModel, S4Layer, SSMLayer, sample_image_prefix
+from s4d import S4DLayer
 
 
 try:
